@@ -1,47 +1,36 @@
-<div class="header-panel shadow-z-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-4 col-xs-12">
-            <div class="row-picture">
-              <img id="about" class="logo-img" src="{{ site.logo }}" height="75px" width="75px">
-            </div>
-            <div class="row-details">
-              <h4 class="list-group-item-heading">{{ site.author }}</h4>
-              <p class="list-group-item-text">{{ site.about }}</p>
-              {% include social_links.html %}
-            </div>
-            <div class="navbar-header pull-right">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <i class="fa fa-2x fa-bars"></i>
-              </button>
-            </div>
+<!-- Header Start -->
+<header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- header Nav Start -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
+            </a>
           </div>
-          <div class="col-md-9 col-sm-8 col-xs-12">
-          <div class="row">
-            <h2 class="blog-title-pro {% if site.allowsearch ==  true %}col-md-6 col-sm-12 col-xs-12 {% endif %}">{{ page.title }}</h2>
-            {% if site.allowsearch ==  true %}
-            <div class="col-md-6 col-sm-12 col-xs-12 searchcontrol" id="js-search">
-              <input class="form-control" type="text" id="js-search__input" placeholder="Search">
-              <ul class="search__results" id="js-search__results"></ul>
-            </div>
-            {% endif %}
-            </div>
-            <p class="info">
-              {% if page.date %}
-                <span class="time">{{ page.date | date_to_string }}</span>
-              {% endif %}
-              {% if page.categories.size > 0 %}
-                <span class="categories">
-                  &raquo; 
-                  {% for category in page.categories %}
-                    <a href="{{ site.baseurl }}/category/{{ category }}">{{ category }}</a>
-                    {% if forloop.last == false %}, {% endif %}
-                  {% endfor %}
-                </span>
-              {% endif %}
-            </p>
-          </div>
-        </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="{{ site.baseurl }}/">Home</a></li>
+                <li><a href="{{ site.baseurl }}/work">Work</a></li>
+                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
       </div>
     </div>
+  </div>
+</header><!-- header close -->

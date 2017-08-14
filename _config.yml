@@ -62,24 +62,12 @@ instagram:          username
 #xmpp:              username@server.com
 #hackernews:        username
 
-<<<<<<< HEAD
-# Site settings
-title: Duy Nguyen's Blog
-subtitle: "Data Science and Data Warehouse Blog"
-url: "http://duymnguyen9.github.io/" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: ""
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
-=======
 # Gems
 gems:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-jupyter-notebook
->>>>>>> e7e883ea87fdc33dc3e96e8f6e0f0c52702895a9
 
 jekyll-mentions:
     base_url: https://github.com

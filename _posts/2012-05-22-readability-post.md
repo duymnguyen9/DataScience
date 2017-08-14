@@ -6,6 +6,4 @@ excerpt: "A ton of text to test readability."
 comments: true
 ---
 
-{::nomarkdown}
 {% housepriceviz.ipynb %}
-{:/nomarkdown}

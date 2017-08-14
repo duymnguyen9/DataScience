@@ -5,4 +5,4 @@ gem "jekyll-sitemap"
 gem "jekyll-gist"
 gem 'jekyll-mentions'
 gem 'jekyll-feed'
-gem "jekyll-jupyter-notebook"
+gem "jekyll-jupyter-notebook", path: ".."

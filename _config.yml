@@ -78,6 +78,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-jupyter-notebook
 >>>>>>> e7e883ea87fdc33dc3e96e8f6e0f0c52702895a9
 
 jekyll-mentions:

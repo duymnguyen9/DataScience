@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Post with a Video"
+title:  "Jupyter Notebook"
 date:   2016-03-15
 excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
 tag:
@@ -10,5 +10,5 @@ tag:
 comments: true
 ---
 {::nomarkdown}
-{% jupyter_notebook sample.ipynb %}
+{% housepriceviz.ipynb %}
 {:/nomarkdown}

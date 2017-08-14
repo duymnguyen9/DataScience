@@ -6,4 +6,4 @@ excerpt: "A ton of text to test readability."
 comments: true
 ---
 
-{% housepriceviz.ipynb %}
+{% jupyter_notebook housepriceviz.ipynb %}

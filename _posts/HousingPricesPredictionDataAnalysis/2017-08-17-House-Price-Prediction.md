@@ -151,8 +151,8 @@ missingviz.set_title('Train Data')
 
 
 
-<img src="/_posts/HousingPricesPredictionDataAnalysis/output_11_1.png">
-![png](output_11_1.png)
+<img src="/assets/postimg/housepriceprediction/output_11_1.png">
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_11_1.png)
 
 
 It is important to note that eventhough it is missing data, most of the values listed as NA because those houses did not contain those features. For example, There are missing data in Garage related features, this is due to the fact that some houses do not have Garage

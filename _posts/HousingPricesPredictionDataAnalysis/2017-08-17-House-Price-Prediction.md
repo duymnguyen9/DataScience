@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Post with Images"
+title: "Housing Prices Prediction"
 date: 2013-05-22
 excerpt: "Examples and code for displaying images in posts."
 tags: [sample post, images, test]
@@ -151,7 +151,7 @@ missingviz.set_title('Train Data')
 
 
 
-
+<img src="/_posts/HousingPricesPredictionDataAnalysis/output_11_1.png">
 ![png](output_11_1.png)
 
 

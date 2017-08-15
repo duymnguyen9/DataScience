@@ -147,7 +147,6 @@ missingviz.set_title('Train Data')
 
 
 
-    <matplotlib.text.Text at 0xc1c3470>
 
 
 
@@ -902,7 +901,6 @@ sns.boxplot(x=train_df['GarageCond'], y= train_df['SalePrice']).set_title('Condi
 
 
 
-    <matplotlib.text.Text at 0xe8a5be0>
 
 
 
@@ -918,7 +916,6 @@ sns.boxplot(x=train_df['GarageQual'], y= train_df['SalePrice']).set_title('Quali
 
 
 
-    <matplotlib.text.Text at 0xeac9438>
 
 
 
@@ -955,7 +952,6 @@ sns.boxplot(x=train_df['GarageCars'], y= train_df['SalePrice']).set_title('Garag
 
 
 
-    <matplotlib.text.Text at 0xecd9eb8>
 
 
 
@@ -993,7 +989,6 @@ sns.boxplot(x=train_df['GarageType'], y= train_df['SalePrice']).set_title('Garag
 
 
 
-    <matplotlib.text.Text at 0xfe69940>
 
 
 
@@ -1091,7 +1086,6 @@ sns.boxplot(x=train_df['Fireplaces'], y= train_df['SalePrice']).set_title('Firep
 
 
 
-    <matplotlib.text.Text at 0x1034e4a8>
 
 
 
@@ -1107,7 +1101,6 @@ sns.boxplot(x=train_df['FireplaceQu'][train_df['Fireplaces']==1], y= train_df['S
 
 
 
-    <matplotlib.text.Text at 0x104915c0>
 
 
 
@@ -1159,7 +1152,6 @@ sns.boxplot(x=train_df['CentralAir'], y= train_df['SalePrice']).set_title('Centr
 
 
 
-    <matplotlib.text.Text at 0x107ae3c8>
 
 
 
@@ -1196,7 +1188,6 @@ sns.boxplot(x=train_df['Electrical'], y= train_df['SalePrice']).set_title('Elect
 
 
 
-    <matplotlib.text.Text at 0x10bba860>
 
 
 
@@ -1227,7 +1218,6 @@ sns.boxplot(x=train_df['Alley'], y= train_df['SalePrice']).set_title('Alley')
 
 
 
-    <matplotlib.text.Text at 0x10e9ef28>
 
 
 
@@ -1272,7 +1262,7 @@ sns.boxplot(x=train_df['Fence'], y= train_df['SalePrice']).set_title('Fence')
 
 
 
-    <matplotlib.text.Text at 0x11170f28>
+
 
 
 
@@ -1309,7 +1299,6 @@ sns.boxplot(x=train_df['Fence'], y= train_df['SalePrice']).set_title('Fence')
 
 
 
-    <matplotlib.text.Text at 0x11385a90>
 
 
 
@@ -1344,7 +1333,6 @@ sns.boxplot(x=train_df['PavedDrive'], y= train_df['SalePrice']).set_title('Paved
 
 
 
-    <matplotlib.text.Text at 0x1175a278>
 
 
 
@@ -1369,7 +1357,6 @@ sns.boxplot(x=train_df['HasPool'], y= train_df['SalePrice']).set_title('HasPool'
 
 
 
-    <matplotlib.text.Text at 0x11a1a6d8>
 
 
 

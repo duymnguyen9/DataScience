@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Housing Prices Prediction"
-date: 2013-05-22
-excerpt: "Examples and code for displaying images in posts."
+date: 2017-08-15
+excerpt: "Perform Data Analysis on Kaggle House Price Prediction"
 tags: [sample post, images, test]
 comments: true
 ---
@@ -151,8 +151,7 @@ missingviz.set_title('Train Data')
 
 
 
-<img src="/assets/postimg/housepriceprediction/output_11_1.png">
-![png]({{ site.url }}/assets/postimg/housepriceprediction/output_11_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/{{ site.url }}/assets/postimg/housepriceprediction/output_11_1.png)
 
 
 It is important to note that eventhough it is missing data, most of the values listed as NA because those houses did not contain those features. For example, There are missing data in Garage related features, this is due to the fact that some houses do not have Garage
@@ -177,11 +176,11 @@ sns.distplot(train_df.SalePrice,kde=False,fit=st.lognorm)
 
 
 
-![png](output_15_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_15_1.png)
 
 
 
-![png](output_15_2.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_15_2.png)
 
 
 The distribution plots above showed that it is best to take log of the SalePrice which will give us a smoother and more accurate distribution
@@ -227,7 +226,7 @@ sns.distplot(no_outliers,kde=False,fit=st.norm)
 
 
 
-![png](output_21_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_21_1.png)
 
 
 The distribution seems to fit better with log now
@@ -274,7 +273,7 @@ SaleTypeviz = sns.boxplot(x=train_df['SalePrice'], y= train_df['SaleType'])
     
 
 
-![png](output_26_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_26_1.png)
 
 
 Many houses were bought as Warranty Deed - Conventional (87%). In addition, houses were bought with Cash have a slightly higher distribution in SalePrice
@@ -308,7 +307,7 @@ SaleTypeviz = sns.boxplot(x=train_df['SalePrice'], y= train_df['SaleCondition'])
     
 
 
-![png](output_30_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_30_1.png)
 
 
 When houses were with SaleCondition of Partial, the distribution seems to be higher than other SaleConditions
@@ -350,7 +349,7 @@ BedroomAbvGrviz = sns.boxplot(x=train_df['BedroomAbvGr'], y= train_df['SalePrice
 ```
 
 
-![png](output_37_0.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_37_0.png)
 
 
 One unsual attribute here listed above is houses with no bedroom. How could it be? Lets investigate
@@ -747,7 +746,7 @@ bathroomGrviz = sns.boxplot(x=train_df['Full-Half Bath'], y= train_df['SalePrice
 ```
 
 
-![png](output_52_0.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_52_0.png)
 
 
 From the boxplot, we can see that houses with increasing amount of full bath have higher SalePrice
@@ -775,7 +774,7 @@ sns.boxplot(x=train_df['HasGarage'], y= train_df['SalePrice'])
 
 
 
-![png](output_57_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_57_1.png)
 
 
 Houses with no garage have significantly lower SalePrice compare to houses with Garage
@@ -795,7 +794,7 @@ sns.regplot(train_df['GarageArea'],train_df['SalePrice'])
 
 
 
-![png](output_60_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_60_1.png)
 
 
 If we remove some of the outliers we can see that as Garage Area increase, so will SalePrice
@@ -908,7 +907,7 @@ sns.boxplot(x=train_df['GarageCond'], y= train_df['SalePrice']).set_title('Condi
 
 
 
-![png](output_65_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_65_1.png)
 
 
 
@@ -924,7 +923,7 @@ sns.boxplot(x=train_df['GarageQual'], y= train_df['SalePrice']).set_title('Quali
 
 
 
-![png](output_66_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_66_1.png)
 
 
 There are not enough Garage Condition or Quality that are not typical to see meaningful trend. For xxample, even with excellence condition or quality, the saleprice are not any higher compare to the least desire values (Good)
@@ -961,7 +960,7 @@ sns.boxplot(x=train_df['GarageCars'], y= train_df['SalePrice']).set_title('Garag
 
 
 
-![png](output_70_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_70_1.png)
 
 
 It is clear that the more cars can store in the garage will give u higher SalePrice, with the exception of 4 cars garage, this is due to the fact that we do not have enough data point for 4 cars to see meaningful distribution for 4 cars.
@@ -999,7 +998,7 @@ sns.boxplot(x=train_df['GarageType'], y= train_df['SalePrice']).set_title('Garag
 
 
 
-![png](output_74_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_74_1.png)
 
 
 There are a trend of increasing Saleprice with Garage Type, which goes CarPort --> Basement --> 2Types --> Attachd --> Detach --> Builtin
@@ -1097,7 +1096,7 @@ sns.boxplot(x=train_df['Fireplaces'], y= train_df['SalePrice']).set_title('Firep
 
 
 
-![png](output_80_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_80_1.png)
 
 
 
@@ -1113,7 +1112,7 @@ sns.boxplot(x=train_df['FireplaceQu'][train_df['Fireplaces']==1], y= train_df['S
 
 
 
-![png](output_81_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_81_1.png)
 
 
 From the boxplot, you can see that the quality does matter, as the quality of the fireplace goes up, the saleprices goes up
@@ -1165,7 +1164,7 @@ sns.boxplot(x=train_df['CentralAir'], y= train_df['SalePrice']).set_title('Centr
 
 
 
-![png](output_88_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_88_1.png)
 
 
 Houses with central air have higher Saleprice Distribution
@@ -1202,7 +1201,7 @@ sns.boxplot(x=train_df['Electrical'], y= train_df['SalePrice']).set_title('Elect
 
 
 
-![png](output_92_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_92_1.png)
 
 
 It seems like there are no significant impact on SalePrice from Eletrical type
@@ -1233,7 +1232,7 @@ sns.boxplot(x=train_df['Alley'], y= train_df['SalePrice']).set_title('Alley')
 
 
 
-![png](output_99_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_99_1.png)
 
 
 One thing to note that there is a different between Gravel and Pave Alley, but the distribution for No Alley is way too broad to draw any conclusion from it
@@ -1278,7 +1277,7 @@ sns.boxplot(x=train_df['Fence'], y= train_df['SalePrice']).set_title('Fence')
 
 
 
-![png](output_103_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_103_1.png)
 
 
 Convert Fences to either have Fences or Not
@@ -1315,7 +1314,7 @@ sns.boxplot(x=train_df['Fence'], y= train_df['SalePrice']).set_title('Fence')
 
 
 
-![png](output_106_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_106_1.png)
 
 
 surprisingly, Houses with fences actually cost less than houses with no fences
@@ -1350,7 +1349,7 @@ sns.boxplot(x=train_df['PavedDrive'], y= train_df['SalePrice']).set_title('Paved
 
 
 
-![png](output_110_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_110_1.png)
 
 
 Houses with no PavedDrive seems to have lower distribution compare to the rest
@@ -1375,7 +1374,7 @@ sns.boxplot(x=train_df['HasPool'], y= train_df['SalePrice']).set_title('HasPool'
 
 
 
-![png](output_114_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_114_1.png)
 
 
 It seems that house that with SalePrice higher than 150k would have a pool
@@ -1391,7 +1390,7 @@ a = sns.boxplot(x=train_df['SalePrice'], y= train_df['Neighborhood']).set_title(
 ```
 
 
-![png](output_118_0.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_118_0.png)
 
 
 The boxplot seems to be all over the place but if you look closely, you can see that each neighborhood occupied a clear distribution from each other
@@ -1468,7 +1467,7 @@ x = plt.xticks(rotation=90)
     
 
 
-![png](output_129_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_129_1.png)
 
 
 Analysis of Variance (ANOVA) is a statistical method used to test differences between two or more means. As the chart showed above, Neighborhood has the most variance in values based on SalePrice
@@ -1517,7 +1516,7 @@ spearman(train_df, features)
 ```
 
 
-![png](output_133_0.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_133_0.png)
 
 
 ## 3.4. Numerical Variable Analysis
@@ -1530,7 +1529,7 @@ g = g.map(sns.distplot, 'value')
 ```
 
 
-![png](output_135_0.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_135_0.png)
 
 
 ###### There are some features that are good candidates for log distribution
@@ -1546,7 +1545,7 @@ g = g.map(sns.distplot, 'value')
 ```
 
 
-![png](output_137_0.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_137_0.png)
 
 
 
@@ -1562,7 +1561,7 @@ g = g.map(sns.distplot, 'value')
 ```
 
 
-![png](output_138_0.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_138_0.png)
 
 
 As the result of Log transformation, the distribution looks betters.
@@ -1588,7 +1587,7 @@ sns.heatmap(corr, annot=True)
 
 
 
-![png](output_142_1.png)
+![png]({{ site.url }}/assets/postimg/housepriceprediction/output_142_1.png)
 
 
 

@@ -2,7 +2,8 @@
 layout: page
 title: About the Blog
 tags: [about, Data Science, Data Analysis, Pandas, Python]
-date: 2016-03-21
+date: 2017-08-15
+feature: http://www.lifeofpix.com/wp-content/uploads/2017/05/img-5831.jpg
 comments: false
 ---
     

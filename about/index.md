@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><b></b></a> About The Blog</center>
+<center><b>About The Blog</b></center>
 
 ## Overview:
 This blog is dedicated to educational purpose. It entailed many aspect about Data from Data Warehouse to Data Science

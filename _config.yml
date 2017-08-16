@@ -26,13 +26,13 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   duym
+disqus_shortname:   duymnguyen9
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:
+  analytics:        duymnguyen9
   #verify:
   #ad-client:
   #ad-slot:

@@ -1,37 +1,24 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
+title: About the Blog
+tags: [about, Data Science, Data Analysis, Pandas, Python]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center><b></b></a> About The Blog</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## Overview:
+This blog is dedicated to educational purpose. It entailed many aspect about Data from Data Warehouse to Data Science
 
-## Preview
+## Who am I?
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+* Let me introduce my self. I'm a BI/ETL Developer and a Data Scientist. I graduated from University Of California, Los Angeles(UCLA).
+* I expertised in many aspect of Data Warehouse from ETL to Business Intelligence which include designing, setting up infrastructure and implementing a BI solution.
+* In addittion, Data Science is also my passion. By ultilizing SQL, and Python, I can create a full supervised or unsupervised Machine Learning system. From Data Analysis, Data Cleaning to modeling a solution
+* I created this website to share my knowledge on both Data Warehouse and Data Science
+* You can contact me through my email or through my github account.
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+## Blog Activity:
 
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+This blog will be updated weekly with new contents. I hope that you will find my blog informative and helpful.
